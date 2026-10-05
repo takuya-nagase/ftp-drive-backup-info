@@ -1,0 +1,18 @@
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI","Yu Gothic",Meiryo,sans-serif;color:#203047;background:#f2f5f9}
+*{box-sizing:border-box}
+body{margin:0;line-height:1.85}
+main{max-width:860px;margin:36px auto;padding:34px 42px;background:#fff;border:1px solid #dce3ec;border-radius:16px}
+nav{display:flex;gap:24px;flex-wrap:wrap;padding-bottom:22px;margin-bottom:38px;border-bottom:1px solid #e3e9f1;font-size:.92rem}
+a{color:#155dc0;text-underline-offset:3px;overflow-wrap:anywhere}
+a:hover{color:#0c3b7d}
+nav a[aria-current]{font-weight:700}
+.eyebrow{font-size:.82rem;font-weight:700;letter-spacing:.07em;color:#53657e;margin:0 0 8px}
+h1{font-size:clamp(1.7rem,5vw,2.4rem);line-height:1.4;letter-spacing:-.03em;margin:0 0 20px;overflow-wrap:anywhere}
+.lead{font-size:1.05rem;color:#465971;margin:0 0 36px}
+section{margin:30px 0}
+h2{font-size:1.2rem;margin:0 0 12px;line-height:1.6}
+p{margin:12px 0}
+ul{padding-left:1.4em}
+li{margin:8px 0}
+footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;padding-top:22px;margin-top:36px;border-top:1px solid #e3e9f1;font-size:.85rem;color:#53657e}
+@media(max-width:600px){main{margin:0;padding:26px 22px;border:0;border-radius:0}nav{gap:16px;margin-bottom:28px}}
